@@ -1,0 +1,13 @@
+Para usar el codigo del programa PetCare:
+1.- Debe importar el script "petcare" en mysql
+2.- Debe colocar la contraseña de su base de datos de mysql en la clase conexion
+    Ubicacion de la clase conexion: Paquete "Modelo"-> ConexionBaseDatos.java
+    public static String contraseña = "admin"; (colocar su contraseña entre las comillas)
+3.- Debe importar el jar de conector de mysql que se encuentra junto al codigo fuente
+    (mysql-connector-java-8.0.29.jar)
+4.- Debe tener importada la libreria AsoluteLayout(viene por defecto con el ide)
+    Tutorial en caso de que no logre importarlo: https://www.youtube.com/watch?v=k_FwwVsVrUE
+ 
+OJO: 
+	Usuario por defecto: admin
+	Contraseña por defecto: 123	
